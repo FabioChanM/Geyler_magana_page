@@ -1,0 +1,229 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body{
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(96, 99, 101);
+  text-transform: none;
+}
+:root {
+  --crema:#F2CF8D;
+  --azul_flechas: #211E3F;
+
+}
+.ancho{
+  max-width: 1200px;
+  margin: auto;
+}
+.flecha_img img{
+  border-radius: 50px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-left: 60px;
+  color: #201F40;
+}
+header {
+  color: #000;
+  transition: 0.7s;
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 90;
+}
+/*MENU*/
+#iconomenu {
+  display: none;
+}
+.contenedorarriba {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.btn_menu {
+  font-size: 25px;
+  display: none !important;
+}
+#contenedormenu{
+margin-bottom: 15px;
+}
+nav ul {
+  color: #000;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 15px;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  font-family:  'Nunito Sans', sans-serif;
+  color: var(--crema);
+  position: relative;
+  padding: 10px;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.5s;
+  font-weight: bold;
+  font-size: 20px;
+}
+/*FIRST PART DISTINTIVO*/
+#flecha_img{
+  text-align: left;
+  align-items: center;
+  display: flex;
+}
+#flecha_img p{
+  width: 300px;
+}
+#crema_arrow{
+  position: relative;
+  left: -2px;
+  z-index: 9;
+  top: 18px;
+  width:45px;
+  height: 45px;
+}
+.division_main{
+  text-align: center;
+  display: flex;
+}
+.logo_distintivo{
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 600px;
+  height: 600px;
+}
+.logo_distintivo img{
+  width: 600px;
+  height: 600px;
+}
+.blue_letters{
+  font-weight: bold;
+  padding: 0px;
+  width: 50px;
+  width: 250px;
+  color: var(--azul_flechas);
+  }
+.perfil_img{
+  margin-left: 20px;
+}
+.principal{
+  text-align: left;
+  display: inline-block;
+}
+/*SECONDO PART EXPERIENCE*/
+.centrar{
+  text-align: center;
+}
+.sub_h2_crema{
+  font-family:  'Nunito Sans', sans-serif;
+  color: var(--crema);
+}
+.division_main2{
+  margin-top: -100px;
+  text-align: center;
+  display: flex;
+}
+.logo_animayukis{
+  margin-top: 100px;
+  margin-left: 50px;
+  width: 600px;
+  height: 200px;
+}
+.logo_animatukis img{
+  width: 600px;
+  height: 600px;
+}
+
+.logo_animayukis{
+  margin-top: 100px;
+  margin-left: 50px;
+  width: 600px;
+  height: 200px;
+}
+.logo_animatukis img{
+  width: 600px;
+  height: 600px;
+}
+.principal_galka{
+  margin-top: 140px;
+  align-items: center;
+  text-align: left;
+  display: inline-block;
+}
+/*CLIENTS*/
+.clientes_fondo{
+  font-family:  'Nunito Sans', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  background-color: var(--crema);
+  color: var(--azul_flechas);
+}
+.clientes_fondo h2{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.imagenes_clientes{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  width: 1200px;
+  height: 300px;
+}
+.clientes_logos{
+  text-align: center;
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+}
+.clientes_logos img{
+  width: 250px;
+  height: 250px;
+}
+/*TERCERA PARTE COLOR AZUL*/
+.fondo_azul{
+  display: flex;
+  background-color: var(--azul_flechas);
+}
+
+.flecha_crema_big{
+width: 600px;
+height: 600px;
+}
+.flecha_crema_big img{
+  width: 600px;
+  height: 600px;
+}
+.redes_sociales{
+  margin-left: 1200px;
+  display: flex;
+  flex-direction: column;
+  color: var(--crema);
+  align-items: center;
+  justify-content: center;
+}
+.redes_sociales a{
+  margin-top: 20px;
+  font-size: 40px;
+  text-decoration: none;
+  color: var(--crema);
+}
+.redes_sociales a i{
+  margin-top: 20px;
+}
