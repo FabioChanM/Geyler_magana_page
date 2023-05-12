@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/2ee0245f3d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="style_contacto.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@1000&display=swap"
+      rel="stylesheet"
+    />
+    <title>PORTAFOLIO</title>
+  </head>
+  <body>
+    <header>
+      <div class="contenedorarriba ancho" id="home">
+        <figure class="flecha_img">
+          <img src="Header_img/flecha_azul.png" alt="" />
+        </figure>
+        <i id="iconomenu" class="fa-solid fa-bars"></i>
+        <nav id="contenedormenu">
+          <ul>
+            <li>
+              <a href="index.html" class="btn_ancla" id="subir">ACERCA DE MI</a>
+            </li>
+            <li><a href="portafolio.html" class="btn_ancla">PORTAFOLIO</a></li>
+            <li><a href="Contacto.html" class="btn_ancla">CONTACTO</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <br /><br /><br /><br /><br /><br /><br />
+    <section class="portafolio_container ancho">
+      <h2>Hablame de tu diseño</h2>
+      <h3>Dejame tus datos y platiquemos  de tu diseño</h3>
+      <hr />
+    </section>
+
+    <form
+      action="enviar.php"
+      method="post"
+      class="form ancho wow animate__animated animate__fadeIn"
+      id="Form"
+    >
+      <div class="boxes">
+        <input class="squares" type="text" name="nombre" placeholder="Nombre" />
+        <input
+          requiered
+          class="squares"
+          type="text"
+          name="telefono"
+          placeholder="Teléfono"
+        />
+        <input
+          requiered
+          class="squares E-mail"
+          type="text"
+          name="email"
+          placeholder="Correo"
+        />
+        <div class="izquierda">
+          <textarea
+            class="amplitud"
+            name="comentarios"
+            placeholder="Descripción del diseño"
+          ></textarea>
+        </div>
+      </div>
+      <div class="Submi ancho">
+        <a href="#">
+          <button id="btn_hire"><spam class="enviar">Enviar</spam></button></a
+        >
+        <br /><br />
+      </div>
+    </form>
+    <!-- FOOTER -->
+    <footer class="fondo_azul">
+      <div class="contenedor_iconos ancho">
+      <figure class="flecha_crema_big">
+        <img src="Header_img/flecha_crema.png" alt="" />
+      </figure>
+      <div class="redes_sociales">
+        <a class="distintivo_l" href="https://www.facebook.com/profile.php?id=100092557150852">Distintivo<i class="fa-brands fa-facebook" target="_blank"></i></a>
+        <a href="https://www.instagram.com/distintivo_grafico/ ">Distintivo_grafico<i class="fa-brands fa-instagram"target="_blank"></i></a>
+        <a href="https://www.youtube.com/channel/UCFF3E1up81TKOVhVLiK9T_Q" target="_blank">@DistintivoYT<i class="fa-brands fa-youtube"></i></a>
+        <a target="_blank">9993 90 38 84<i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://www.behance.net/geylermagaa"target="_blank">Geyler Magaña<i class="fa-brands fa-behance"></i></a>
+      </div>
+    </div>
+    </footer>
+  </body>
+</html>
