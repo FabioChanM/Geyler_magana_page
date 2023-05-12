@@ -54,6 +54,9 @@ header {
 #contenedormenu {
   margin-bottom: 15px;
 }
+nav{
+  background-color: #fff;
+}
 nav ul {
   color: #000;
   list-style: none;
@@ -200,7 +203,7 @@ nav ul li a {
   font-weight: bold;
 }
 .imagenes_clientes {
-  margin-left: 355px;
+  margin-left: 400px;
   justify-content: center;
   align-items: center;
   text-align: center;
