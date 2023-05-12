@@ -200,6 +200,7 @@ nav ul li a {
   font-weight: bold;
 }
 .imagenes_clientes {
+  margin-left: 355px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -208,14 +209,32 @@ nav ul li a {
   height: 300px;
 }
 .clientes_logos {
-  text-align: center;
-  object-fit: cover;
-  width: 250px;
-  height: 250px;
+  text-align: center;;
+  width: 300px;
+  height: 300px;
+}
+.paddin_botton{
+  padding-bottom: 50px;
 }
 .clientes_logos img {
   width: 250px;
   height: 250px;
+}
+.chan_antonio{
+  width: 350px;
+  height: 350px;
+}
+.chan_antonio img{
+  width: 350px;
+  height: 350px;
+}
+.mmk{
+  width: 350px;
+  height: 350px;
+}
+.mmk img{
+  width: 350px;
+  height: 350px;
 }
 /*TERCERA PARTE COLOR AZUL*/
 .fondo_azul {
