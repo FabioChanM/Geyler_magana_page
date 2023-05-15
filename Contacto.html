@@ -100,5 +100,18 @@
       </div>
     </div>
     </footer>
+    <script>
+      ///MENU
+  $("#iconomenu").click(function () {
+    $("#contenedormenu").toggleClass("abrirmenu")
+  });
+  //acordeon
+  $(".titulo_abrir").click(function () {
+      var este_elemento = $(this);
+      var activar = este_elemento.next();
+      activar.slideToggle();
+    });
+    new WOW().init();
+    </script>
   </body>
 </html>

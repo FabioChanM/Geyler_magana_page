@@ -18,6 +18,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@1000&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="movil.css/style_movil.css">
     <title>DISTINTIVO MARCAS CREATIVAS</title>
   </head>
   <body>
@@ -38,7 +39,7 @@
         </nav>
       </div>
     </header>
-    <br /><br /><br /><br /><br />
+    <br class="desaparecer" /><br  class="desaparecer"/><br class="desaparecer" /><br /><br />
     <!-- PRIMERA PARTE DEL LOGO DISTINTIVO -->
     <section class="division_main ancho">
       <figure class="logo_distintivo">
@@ -55,7 +56,7 @@
         <br>
         <p class="name">Licenciado Diseño Digital Producción Audiovisual.</p>
       </div>
-        <div id="flecha_img">
+        <div id="flecha_img" class="descripcion">
           <p class="blue_letters">
             <img id="crema_arrow" src="Header_img/flecha_crema.png" alt=""/>Diseñador digital y
             animador 2D, he trabajado como freelance durante los últimos 2 años,
@@ -67,14 +68,13 @@
           </p>
         </div>
       </article>
-      <article></article>
     </section>
-    <br /><br /><br />
+    <br class="desaparecer"/><bR/><br />
     <!-- SEGUNDA PARTE EXPERIENCIA -->
     <div class="ancho centrar">
       <h2 class="sub_h2_crema">EXPERIENCIA</h2>
     </div>
-    <br /><br /><br /><br /><br />
+    <br  class="desaparecer"/><br class="desaparecer" /><br /><br /><br />
     <section class="division_main2 ancho">
       <figure class="logo_animayukis">
         <img src="Header_img/animayukis.png" alt="" />
@@ -96,16 +96,15 @@
           </p>
         </div>
       </article>
-      <article></article>
     </section>
-    <br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br class="desaparecer"/><br class="desaparecer" /><br class="desaparecer" /><br class="desaparecer" /><br /><br /><br /><br /><br />
     <section class="division_main2 ancho">
       <figure class="logo_animayukis">
         <img src="Header_img/publicidad_creativa.png" alt="" />
       </figure>
       <article class="principal ancho">
         <div id="flecha_img">
-          <p class="blue_letters">
+          <p class="blue_letters punto_uno">
             <img
               id="crema_arrow"
               src="Header_img/flecha_crema.png"
@@ -121,28 +120,25 @@
           </p>
         </div>
       </article>
-      <article></article>
     </section>
+    <br class="desaparecer" /><br  class="desaparecer"/><br class="desaparecer" /><br class="desaparecer" /><br class="desaparecer" /><br /><br />
 
-    <br /><br /><br /><br /><br /><br /><br />
-    <section class="division_main2 ancho">
-      <figure class="logo_animayukis">
+    <section class="division_main2 ancho galka_movil">
+      <figure class="logo_animayukis logo_galka">
         <img src="Header_img/galka.png" alt="" />
       </figure>
-      <article class="principal_galka ancho">
-        <div id="flecha_img">
+      <article class="principal ancho principal_galka">
+        <div id="flecha_img" class="flecha_p">
           <p class="blue_letters">
             <img
               id="crema_arrow"
               src="Header_img/flecha_crema.png"
               alt=""
-            />Galka, es un proyecto personal con otros 4 amigos diseñadores que
-            nació en 2021 donde nos centramos más en el diseño de identidades
+            />Galka, es un proyecto personal con otros 4 amigos diseñadores que nació en 2021 donde nos centramos más en el diseño de identidades
             corporativas y contenido digital
           </p>
         </div>
       </article>
-      <article></article>
     </section>
     <!-- SEGUNDA PARTE EXPERIENCIA -->
     <br /><br /><br /><br /><BR></BR>
@@ -197,7 +193,7 @@
         <figure class="clientes_logos">
           <img src="LOGOS CLIENTES/Logos Clientes-13.png" alt="" />
         </figure>
-        <figure class="clientes_logos mmk paddin_bottom">
+        <figure class="clientes_logos paddin_bottom">
           <img src="LOGOS CLIENTES/Logos Clientes-14.png" alt="" />
         </figure>
       </article>
@@ -217,5 +213,18 @@
       </div>
     </div>
     </footer>
+  <script>
+    ///MENU
+$("#iconomenu").click(function () {
+	$("#contenedormenu").toggleClass("abrirmenu")
+});
+//acordeon
+$(".titulo_abrir").click(function () {
+		var este_elemento = $(this);
+		var activar = este_elemento.next();
+		activar.slideToggle();
+	});
+	new WOW().init();
+  </script>
   </body>
 </html>

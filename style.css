@@ -127,7 +127,6 @@ nav ul li a {
   margin-left: 20px;
 }
 .principal {
-  
   text-align: left;
   display: inline-block;
 }
@@ -144,17 +143,10 @@ nav ul li a {
   text-align: center;
   display: flex;
 }
-.logo_animayukis {
-  margin-top: 100px;
-  margin-left: 50px;
-  width: 600px;
-  height: 200px;
-}
 .logo_animatukis img {
   width: 600px;
   height: 600px;
 }
-
 .logo_animayukis {
   margin-top: 100px;
   margin-left: 50px;
@@ -170,6 +162,10 @@ nav ul li a {
   align-items: center;
   text-align: left;
   display: inline-block;
+}
+.logo_galka{
+  position: relative;
+  bottom: 40px;
 }
 .name_h1{
   position: relative;
@@ -203,16 +199,15 @@ nav ul li a {
   font-weight: bold;
 }
 .imagenes_clientes {
-  margin-left: 400px;
+  margin-left: 340px;
   justify-content: center;
   align-items: center;
   text-align: center;
   display: flex;
-  width: 1200px;
   height: 300px;
 }
 .clientes_logos {
-  text-align: center;;
+  text-align: center;
   width: 300px;
   height: 300px;
 }
