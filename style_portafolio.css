@@ -337,9 +337,14 @@ font-weight: bold;
      transition: none;
     }
  }
+ /*IPAD MINI*/
  @media screen and (max-width: 790px) {
  .ful_img img{
   width: 60%;
   max-width: 1000px;
 }
  }
+ /*CELULAR*/
+ @media screen and (max-width: 414px) {
+
+  }
