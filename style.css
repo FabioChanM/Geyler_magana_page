@@ -88,7 +88,7 @@ nav ul li a {
   display: flex;
 }
 #flecha_img p {
-  width: 300px;
+  width: 400px;
 }
 #crema_arrow {
   position: relative;
@@ -124,7 +124,7 @@ nav ul li a {
 }
 .perfil_img {
   width: 300px;
-  margin-left: 20px;
+  margin-left: 15%;
 }
 .principal {
   text-align: left;
@@ -273,6 +273,9 @@ nav ul li a {
   margin-right: 100%;
   text-decoration: none;
   color: var(--crema);
+}
+.descripcion{
+  margin-left: 10%;
 }
 .redes_sociales a i{
   margin-bottom: 6px;

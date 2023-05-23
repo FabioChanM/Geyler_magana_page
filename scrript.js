@@ -1,3 +1,4 @@
+
 const fulImgbox = document.getElementById("fulImgbox");
 fulImg = document.getElementById("fulImg");
 
@@ -8,4 +9,4 @@ function openFullImg(reference){
 function closeImg(reference){
   fulImgbox.style.display = "none";
   fulImg.src = reference;
-}
+   }

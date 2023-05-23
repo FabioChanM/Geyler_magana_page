@@ -35,7 +35,7 @@
     color: #000;
     position: absolute;
     top: 120%;
-    left: -150%;
+    left: -200%;
     width: 100%;
     background:  rgba(255, 250, 250, 0.9);
     backdrop-filter: blur (50px);
@@ -77,23 +77,28 @@
     height: 45px;
   }
   .descripcion{
-   margin-right: -28%;
+   margin-right:0%;
     margin-left: 50%;
   }
   .division_main {
-    margin-left: 50%;
+    width: 600px;
+    position: relative;
+    left: 10%;
     text-align: center;
     display: flex;
   }
   .division_main {
+    margin-top: -30%;
     margin-left:7.5%;
     max-width: 820px;
     display: inline-block;
   }
   .logo_distintivo {
-    margin-top: 0px;
+    position: relative;
+    right: 3%;
+    top: -80%;
     margin-left: 0%;
-    margin-bottom: 60px;
+    margin-bottom: 0px;
     width: 100%;
     height: 300px;
   }
@@ -101,11 +106,9 @@
     width: 400px;
     height: 400px;
   }
-  .descripcion{
-      width: 300px;
-      margin-left: -12%;
-  }
   .principal {
+    position: relative;
+    right: 10%;
     width: 700px;
     text-align: center;
   }
@@ -118,10 +121,26 @@
     width: 200px;
   }
   .division_main2 {
+    width: 600px;
     margin-top: -50px;
-    margin-left: 8%;
+    margin-left:17%;
     text-align: center;
     display: inline-block;
+  }
+  .logo_animayukis {
+    margin-top: -40%;
+    margin-bottom: 200px;
+    margin-left: 5%;
+    width: 500px;
+    height: 300px;
+  }
+  .logo_animayukis img {
+    margin-top: 30%;
+    width: 500px;
+    height: 500px;
+  }
+  .descripcion{
+    margin-bottom: 10%;
   }
   .punto_uno{
     margin-top: 28px;
@@ -137,7 +156,7 @@
     display: inline-block;
   }
   .logo_galka{
-    margin-top: 0px;
+    margin-top: -30%;
     position: relative;
     bottom: 0px;
   }
@@ -156,12 +175,12 @@
   /*FOOTER*/
   .flecha_crema_big {
     margin-right: 0%;
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
   }
   .flecha_crema_big img {
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
   }
   .redes_sociales {
     margin-left: 0%;
@@ -174,10 +193,11 @@
   .contenedor_iconos{
     margin-top: 0px;
     text-align: left;
-    margin-left: -10%;
+    margin-left:-10%;
     display: flex;
   }
   .fondo_azul {
+    width: 100%;
     height: 600px;
     display: flex;
     background-color: var(--azul_flechas);
@@ -191,16 +211,19 @@
     display: flex;
     margin-top: 10px;
     font-size: 20px;
-    margin-right: 100%;
+    margin-right: 0%;
     text-decoration: none;
     color: var(--crema);
   }
-  }
-  @media screen and (max-width: 790px) {
-    .clientes_fondo {
-      max-width: 768px;
-    }
 
+  }
+  @media screen and (max-width: 768px) {
+    .clientes_fondo {
+      width: 820px;
+    }
+    .fondo_azul {
+      width: 820px;
+    }
   }
   /*MOVIL*/
   @media screen and (max-width: 414px) {
@@ -215,7 +238,7 @@
   }
   header {
     padding: 0px;
-    width: 52%;
+    width: 35%;
   }
     #iconomenu{
       display: block;
@@ -223,6 +246,8 @@
       width: 40px;
       font-size: 30px;
       border-radius: 3px;
+      position: relative;
+      right: -130%;
     }
     .contenedorarriba {
       padding-top: 20px;
@@ -236,9 +261,9 @@
     color: #000;
     position: absolute;
     top: 120%;
-    left: -150%;
-    width: 100%;
-    background:  rgba(255, 250, 250, 0.9);
+    left: -1200%;
+    width: 400%;
+    background:  rgba(255, 250, 250, 1);
     backdrop-filter: blur (50px);
     transition: all 0.5s;
   }
@@ -251,8 +276,8 @@
   }
   nav ul li {
     border-bottom: 1px black double;
-    width: 100%;
-    padding-left: 20px;
+    width: 300%;
+    padding-left: 0%;
   }
   
   nav ul li a {
@@ -260,181 +285,170 @@
     display: block;
   }
   /*LOGO PRINCIPAL */
-
-  .division_main {
-    position: relative;
-    right: 2%;
-    width: 393px;
-    display: inline-block;
-  }
-  .logo_distintivo {
-    margin-top: 0px;
-    margin-left: 0%;
-    margin-bottom: 60px;
-    width: 100%;
-    height: 300px;
-  }
-  .logo_distintivo img {
-    width: 400px;
-    height: 400px;
+  #flecha_img {
+    width: 380px;
+    margin-left: 12%;
+    text-align: left;
+    align-items: center;
+    display: flex;
   }
   .descripcion{
-    margin-left: -25px;
-      width: 200px;
-  }
-  .principal1{
-    position: relative;
-    bottom: 0px;
-     width: 393px;
-     display: inline-block;
-  }
-  .principal {
-    position: relative;
-   bottom: 400px;
-    width: 393px;
-    display: inline-block;
-  }
-  .perfil_img {
-    width: 300px;
-    margin-left: 12%;
-  }
-  .desaparecer{
-    display: none;
-  }
-  .datos_personales{
-    position: relative;
-    right: 35%;
     width: 200px;
-  }
-  .name_h1{
     position: relative;
-    width: 500px;
+    right: 10%;
+
+   }
+   .division_main {
+     width: 393px;
+     position: relative;
+     left: -2%;
+     text-align: center;
+     display: flex;
+   }
+   .division_main {
+     margin-left:7.5%;
+     max-width: 820px;
+     display: inline-block;
+   }
+   .logo_distintivo {
+     position: relative;
+     right: 3%;
+     margin-top: 0px;
+     margin-left: 0%;
+     margin-bottom: 0px;
+     width: 100%;
+     height: 300px;
+   }
+   .logo_distintivo img {
+     width: 393px;
+     height: 393px;
+   }
+   .principal {
+     position: relative;
+     right: 5%;
+     width: 385px;
+     text-align: center;
+   }
+   .perfil_img {
+    width: 300px;
+     margin-left: 13%;
+   }
+   .datos_personales{
+     margin-left: 0%;
+   }
+   .name_h1{
+    position: relative;
+    width: 393px;
     right: 0px;
-    margin-right: 20px;
+    margin-right: 0px;
     color: var(--azul_flechas);
     font-size: 20px;
   }
   .name{
     font-weight: bold;
     position: relative;
-    width: 500px;
-    right: 0px;
-    margin-right: 20px;
+    width: 393px;
+    right: 10px;
+    margin-left: 5%;
     color: var(--azul_flechas);
     font-size: 15px;
   }
-  .centrar {
-    margin-top: 50px;
-    margin-left: 30%;
-    margin-right: 0px;
-    border-top: 50px;
-    max-width: 30%;
-    text-align: center;
+   .division_main2 {
+     width: 393px;
+     margin-left:5%;
+     text-align: center;
+     display: inline-block;
+   }
+   .logo_animayukis {
+     margin-top: -10%;
+     margin-bottom: 100px;
+     margin-left: -5%;
+     width: 200px;
+     height: 200px;
+   }
+   .clientes_fondo {
+    max-width: 414px;
   }
-  .division_main2 {
-    height: 400px;
-    margin-bottom: 0px;
-    margin-left: 2%;
-    margin-right: 0%;
-    text-align: center;
-    display: inline-block;
-  }
-  .logo_animayukis {
-    margin-top: 0px;
-    margin-left: 12%;
-    width: 300px;
-    height: 300px;
-  }
-  .principal{
-    position: relative;
-  }
-  .logo_animayukis img{
-    width: 300px;
-    height: 300px;
-  }
-  #flecha_img p {
-    width: 300px;
-    margin-left: 0%;
-  }
-  .principal_galka {
-    margin-left: 0%;
-    margin-top: 0px;
-    align-items: center;
-    text-align: left;
-    display: inline-block;
-  }
-  .logo_galka{
-    margin-top: 0%;
-    margin-left: 13%;
-  }
-  .imagenes_clientes {
-    margin-top: 0px;
-    margin-left: 0px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-wrap: wrap;
-    display: inline-block;
-    height: 200px;
-  }
-  .clientes_fondo {
-    margin-top: -300px;
-    max-width: 100%;
-    font-size: 15px;
-  }
-  .clientes_fondo h2 {
-    margin-left: 0%;
-    padding-bottom: 50px;
-    font-size: 30px;
-    font-weight: bold;
-  }
-  .clientes_logos{
-    justify-content: center;
-    margin-left: 5%;
-    width: 200px;
-    height: 200px;
-  }
-  .clientes_logos img {
-    width: 200px;
-    height: 200px;
-
-  }
-  .contenedor_iconos{
-    margin-top: 0px;
-    text-align: none;
-    margin-right: 0%;
-    margin-left: 25%;
-    height: 750px;
-    display: inline-block;
-  }
-  .fondo_azul {
-    width: 414px;
-    height: auto;
-    display: inline-block;
-    flex-wrap: wrap;
-    background-color: var(--azul_flechas);
-  }
-  .redes_sociales a {
-    margin-top: 0px;
-    justify-content: left;
-    align-items: left;
-    width:250px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin-top: 10px;
-    font-size: 20px;
-    margin-right: 0%;
-    text-decoration: none;
-    color: var(--crema);
-  }
-  .flecha_crema_big {
-    margin-right: 0%;
-    width: 200px;
-    height: 200px;
-  }
-  .flecha_crema_big img {
-    width: 200px;
-    height: 200px;
-  }
+   .logo_animayukis img {
+     margin-top: 10%;
+     width: 400px;
+     height: 400px;
+   }
+   .descripcion{
+     margin-bottom: 10%;
+   }
+   .punto_uno{
+     margin-top: 28px;
+   }
+   .principal_galka {
+     margin-top: 30px;
+     text-align: left;
+   }
+   .principal_galka {
+     margin-top: 50px;
+     align-items: center;
+     text-align: left;
+     display: inline-block;
+   }
+   .logo_galka{
+     margin-top: -10%;
+     position: relative;
+     bottom: 0px;
+   }
+   .imagenes_clientes {
+     margin-left: 0px;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     flex-wrap: wrap;
+     display: flex;
+     height: auto;
+   }
+   .paddin_botton{
+     padding-bottom: 0px;
+   }
+   /*FOOTER*/
+   .flecha_crema_big {
+     margin-right: 0%;
+     width: 393px;
+     height: 393px;
+   }
+   .flecha_crema_big img {
+     width: 393px;
+     height: 393px;
+   }
+   .redes_sociales {
+     margin-left: 0%;
+     display: flex;
+     flex-direction: column;
+     color: var(--crema);
+     align-items: center;
+     justify-content: center;
+   }
+   .contenedor_iconos{
+     margin-top: 0px;
+     text-align: left;
+     margin-left:-2%;
+     display: inline-block;
+   }
+   .fondo_azul {
+     width: 414px;
+     height: 800px;
+     display: flex;
+     background-color: var(--azul_flechas);
+   }
+   .redes_sociales a {
+     justify-content: left;
+     align-items: left;
+     width:290px;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     margin-top: 10px;
+     font-size: 20px;
+     margin-right: 0%;
+     text-decoration: none;
+     color: var(--crema);
+   }
+ 
   }

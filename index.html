@@ -9,21 +9,19 @@
       src="https://kit.fontawesome.com/2ee0245f3d.js"
       crossorigin="anonymous"
     ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="animate.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@1000&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="movil.css/style_movil.css">
+    <script src="wow.min.js"></script>
     <title>DISTINTIVO MARCAS CREATIVAS</title>
   </head>
   <body>
     <header>
-      <div class="contenedorarriba ancho" id="home">
+      <div class="wow animate__animated animate__bounceInDown contenedorarriba ancho" id="home">
         <figure class="flecha_img">
           <img src="Header_img/flecha_azul.png" alt="" />
         </figure>
@@ -41,11 +39,11 @@
     </header>
     <br class="desaparecer" /><br  class="desaparecer"/><br class="desaparecer" /><br /><br />
     <!-- PRIMERA PARTE DEL LOGO DISTINTIVO -->
-    <section class="division_main ancho">
+    <section class="wow animate__animated  animate__fadeInRight division_main ancho">
       <figure class="logo_distintivo">
         <img src="Header_img/logo_distintivo.png" alt="" />
       </figure>
-      <article class="principal1 ancho">
+      <article class="principal ancho">
         <figure class="perfil_img">
           <img src="Header_img/perfil_img.png" alt=""/>
         </figure>
@@ -71,11 +69,11 @@
     </section>
     <br class="desaparecer"/><bR/><br />
     <!-- SEGUNDA PARTE EXPERIENCIA -->
-    <div class="ancho centrar">
+    <div class=" wow animate__animated  animate__fadeInRight  ancho centrar">
       <h2 class="sub_h2_crema">EXPERIENCIA</h2>
     </div>
     <br  class="desaparecer"/><br class="desaparecer" /><br /><br /><br />
-    <section class="division_main2 ancho">
+    <section class="wow animate__animated  animate__fadeInRight  division_main2 ancho">
       <figure class="logo_animayukis">
         <img src="Header_img/animayukis.png" alt="" />
       </figure>
@@ -98,7 +96,7 @@
       </article>
     </section>
     <br class="desaparecer"/><br class="desaparecer" /><br class="desaparecer" /><br class="desaparecer" /><br /><br /><br /><br /><br />
-    <section class="division_main2 ancho">
+    <section class="wow animate__animated  animate__fadeInRight  division_main2 ancho">
       <figure class="logo_animayukis">
         <img src="Header_img/publicidad_creativa.png" alt="" />
       </figure>
@@ -122,8 +120,8 @@
       </article>
     </section>
     <br class="desaparecer" /><br  class="desaparecer"/><br class="desaparecer" /><br class="desaparecer" /><br class="desaparecer" /><br /><br />
-
-    <section class="division_main2 ancho galka_movil">
+    
+    <section class=" wow animate__animated  animate__fadeInRight division_main2 ancho galka_movil">
       <figure class="logo_animayukis logo_galka">
         <img src="Header_img/galka.png" alt="" />
       </figure>
@@ -213,6 +211,8 @@
       </div>
     </div>
     </footer>
+    <script src="js/wow.min.js"></script>
+    <script src="./js/main.js"></script>
   <script>
     ///MENU
 $("#iconomenu").click(function () {
@@ -224,7 +224,9 @@ $(".titulo_abrir").click(function () {
 		var activar = este_elemento.next();
 		activar.slideToggle();
 	});
-	new WOW().init();
   </script>
+  <script>
+    new WOW().init();
+    </script>
   </body>
 </html>
