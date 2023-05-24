@@ -198,7 +198,7 @@ nav ul li a {
   font-weight: bold;
 }
 .imagenes_clientes {
-  margin-left: 340px;
+  padding-left: 10%;
   justify-content: center;
   align-items: center;
   text-align: center;
