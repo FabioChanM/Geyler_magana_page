@@ -187,6 +187,8 @@ nav ul li a {
 .clientes_fondo {
   font-family: "Nunito Sans", sans-serif;
   font-size: 15px;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   background-color: var(--crema);
   color: var(--azul_flechas);
@@ -198,7 +200,7 @@ nav ul li a {
   font-weight: bold;
 }
 .imagenes_clientes {
-  padding-left: 10%;
+  border: 1px red solid;
   justify-content: center;
   align-items: center;
   text-align: center;
