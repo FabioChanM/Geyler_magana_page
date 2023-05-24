@@ -1,15 +1,14 @@
 <?php
 
-$destino = "fabioleon00@gmail.com";
+$destino = "geylerdesign@gmail.com";
 $asunto = "Contacto desde el sitio web";
 
 
 $nombre = $_POST["nombre"];
-$apellido = $_POST["apellido"];
 $email = $_POST["email"];
 $comentarios = $_POST["comentarios"];
 $contenido = "
-	<b>Nombre :</b> " . $nombre . "<br><b>Apellido :</b>" . $apellido . "<br><b>Email :</b> " . $email . "<br><b>Comentarios : </b> " . $comentarios;
+	<b>Nombre :</b> " . $nombre ."<br><b>Email :</b> " . $email . "<br><b>Comentarios : </b> " . $comentarios;
 
 // PARA QUE RECONOZCA LAS ETIQUETAS HTML
 
@@ -18,4 +17,4 @@ $encabezados .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
 // FUNCION MAIL Y REDIRECCIONAMIENTO
 mail($destino, $asunto, $contenido, $encabezados);
-header("Location: index.html");
+header("Location: Contacto.html");

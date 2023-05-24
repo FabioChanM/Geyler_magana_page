@@ -361,6 +361,7 @@ font-weight: bold;
     color: #201f40;
   }
   header {
+    z-index: -9;
     padding: 10px;
     width: 80%;
 }
@@ -411,6 +412,7 @@ font-weight: bold;
   }
   /*FOOTER*/
   .ful_img img{
+    z-index: 99;
     margin-left: 12%;
     width: 100%;
     width: 300px;
@@ -433,6 +435,7 @@ font-weight: bold;
     justify-content: center;
   }
   .contenedor_iconos{
+    z-index: 9;
     text-align: left;
     margin-left: -12%; 
     display: flex;
