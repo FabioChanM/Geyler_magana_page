@@ -80,20 +80,21 @@
         </div>
       </div>
       </footer>
+      <script src="js/wow.min.js"></script>
+      <script src="./js/main.js"></script>
       <!-- VICULOS DE JAVASCRIPT -->
       <script src="scrript.js"></script>
       <script>
-        ///MENU
-    $("#iconomenu").click(function () {
-      $("#contenedormenu").toggleClass("abrirmenu")
-    });
-    //acordeon
-    $(".titulo_abrir").click(function () {
-        var este_elemento = $(this);
-        var activar = este_elemento.next();
-        activar.slideToggle();
-      });
-      new WOW().init();
+         ///MENU
+$("#iconomenu").click(function () {
+	$("#contenedormenu").toggleClass("abrirmenu")
+});
+//acordeon
+$(".titulo_abrir").click(function () {
+		var este_elemento = $(this);
+		var activar = este_elemento.next();
+		activar.slideToggle();
+	});
       </script>
 </body>
 </html>

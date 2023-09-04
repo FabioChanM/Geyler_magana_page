@@ -32,10 +32,9 @@ header {
   color: #000;
   transition: 0.7s;
   padding: 10px;
-  width: 100%;
-  position: fixed;
+  width: 50%;
   top: 0;
-  z-index: 90;
+  z-index: 99999999;
 }
 /*MENU*/
 #iconomenu {
@@ -53,7 +52,7 @@ header {
   display: none !important;
 }
 #contenedormenu {
-  margin-bottom: 15px;
+  margin-bottom: 0px;
 }
 nav ul {
   background-color: #FFf;
@@ -70,6 +69,7 @@ nav ul li {
   display: inline-block;
 }
 nav ul li a {
+  background-color: #FFf solid;
   font-family: "Nunito Sans", sans-serif;
   color: var(--crema);
   position: relative;
@@ -82,6 +82,9 @@ nav ul li a {
 }
 /*PORTAFOLIO*/
 .portafolio_container{
+  z-index: -99;
+  margin-top: -150px;
+ position: relative;
   text-align: center;
   color: var(--azul_flechas);
   font-family:"Nunito Sans", sans-serif;
@@ -421,7 +424,6 @@ font-weight: bold;
     position: relative;
     top: -25%;
     left: -25%;
-
   }
   .ful_img{
     width:100%;
